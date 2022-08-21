@@ -1,0 +1,74 @@
+body{
+  background-color: #DEACF0;
+  font-size: 18px;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-left: 2px pink;
+  border-right: 1px pink;
+  background-color: darkblue;
+}
+li:hover{
+  background-color: pink;
+  border-style: none;
+}
+#p1{
+  background-color: #F7638D;
+  color: white;
+  border-style: dashed;
+  width: 50%;
+  padding: 12px;
+}
+header, body{
+  padding: 12px
+}
+h1, h2, p, img, form{
+  margin-left: 40px;
+}
+footer{
+  padding: 12px;
+  margin-left: 30px;
+}
+table{
+  background-color: #f7638d;
+  border-collapse: collapse;
+  border-style: solid;
+  margin-left: 40px;
+}
+td,th{
+  border-style: solid;
+  padding: 10px 5px;
+}
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px pink;
+}
+textarea{
+  height: 200px;
+  padding: 5px 4px;
+}
+button:hover{
+  background-color: lightpink;
+  color: white;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px pink;
+}
+button:active{
+  background-color: pink;
+  color: white;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px pink;
+}
